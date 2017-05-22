@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/infobox_9patch">
+
+        <TextView
+            android:id="@+id/route_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#52B347"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:text="225 kms"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/route_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:text="20 mins"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/route_time_in_traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:textColor="#b3475e"
+            android:text="30 mins (in traffic)"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
